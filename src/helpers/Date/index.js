@@ -1,3 +1,21 @@
+// a
+
+//   0: "janvier",
+//   1: "février",
+//   2: "mars",
+//   3: "avril",
+//   4: "mai",
+//   5: "juin",
+//   6: "juillet",
+//   7: "août",
+//   8: "septembre",
+//   9: "octobre",
+//   10: "novembre",
+//   11: "décembre",
+// };
+
+// utile pour le slider
+
 export const MONTHS = {
   1: "janvier",
   2: "février",
@@ -13,4 +31,4 @@ export const MONTHS = {
   12: "décembre",
 };
 
-export const getMonth = (date) => MONTHS[date.getMonth()];
+export const getMonth = (date) => MONTHS[date.getMonth()+1];
